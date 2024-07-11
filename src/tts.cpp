@@ -88,7 +88,7 @@ int initSDK(const std::string& file_name)
 
 
 
-void personateTTSTest(const char* txt)
+void personateTTS(const char* txt)
 {
     finish = false;
     PersonateTTS tts("x4_lingxiaoxuan_oral");

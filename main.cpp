@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
         return -1;
     }
 
-    personateTTSTest("你好 世界"); // 超拟人合成
+    personateTTS("你好 世界"); // 超拟人合成
 
     // 退出
     uninitSDK();
