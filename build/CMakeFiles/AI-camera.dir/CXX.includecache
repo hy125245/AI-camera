@@ -6,7 +6,37 @@
 
 #IncludeRegexTransform: 
 
+../include/voice/msp_cmn.h
+msp_types.h
+../include/voice/msp_types.h
+
+../include/voice/msp_errors.h
+
+../include/voice/msp_types.h
+
+../include/voice/qisr.h
+msp_types.h
+../include/voice/msp_types.h
+
+../src/speech_recognizer.h
+
 /home/hy125245/AI-camera/main.cpp
-iostream
+pthread.h
 -
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+qisr.h
+/home/hy125245/AI-camera/qisr.h
+msp_cmn.h
+/home/hy125245/AI-camera/msp_cmn.h
+msp_errors.h
+/home/hy125245/AI-camera/msp_errors.h
+speech_recognizer.h
+/home/hy125245/AI-camera/speech_recognizer.h
 

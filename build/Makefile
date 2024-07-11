@@ -150,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/AI-camera.dir/build.make CMakeFiles/AI-camera.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/linuxrec.o: src/linuxrec.c.o
+
+.PHONY : src/linuxrec.o
+
+# target to build an object file
+src/linuxrec.c.o:
+	$(MAKE) -f CMakeFiles/AI-camera.dir/build.make CMakeFiles/AI-camera.dir/src/linuxrec.c.o
+.PHONY : src/linuxrec.c.o
+
+src/linuxrec.i: src/linuxrec.c.i
+
+.PHONY : src/linuxrec.i
+
+# target to preprocess a source file
+src/linuxrec.c.i:
+	$(MAKE) -f CMakeFiles/AI-camera.dir/build.make CMakeFiles/AI-camera.dir/src/linuxrec.c.i
+.PHONY : src/linuxrec.c.i
+
+src/linuxrec.s: src/linuxrec.c.s
+
+.PHONY : src/linuxrec.s
+
+# target to generate assembly for a file
+src/linuxrec.c.s:
+	$(MAKE) -f CMakeFiles/AI-camera.dir/build.make CMakeFiles/AI-camera.dir/src/linuxrec.c.s
+.PHONY : src/linuxrec.c.s
+
+src/speech_recognizer.o: src/speech_recognizer.c.o
+
+.PHONY : src/speech_recognizer.o
+
+# target to build an object file
+src/speech_recognizer.c.o:
+	$(MAKE) -f CMakeFiles/AI-camera.dir/build.make CMakeFiles/AI-camera.dir/src/speech_recognizer.c.o
+.PHONY : src/speech_recognizer.c.o
+
+src/speech_recognizer.i: src/speech_recognizer.c.i
+
+.PHONY : src/speech_recognizer.i
+
+# target to preprocess a source file
+src/speech_recognizer.c.i:
+	$(MAKE) -f CMakeFiles/AI-camera.dir/build.make CMakeFiles/AI-camera.dir/src/speech_recognizer.c.i
+.PHONY : src/speech_recognizer.c.i
+
+src/speech_recognizer.s: src/speech_recognizer.c.s
+
+.PHONY : src/speech_recognizer.s
+
+# target to generate assembly for a file
+src/speech_recognizer.c.s:
+	$(MAKE) -f CMakeFiles/AI-camera.dir/build.make CMakeFiles/AI-camera.dir/src/speech_recognizer.c.s
+.PHONY : src/speech_recognizer.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +216,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/linuxrec.o"
+	@echo "... src/linuxrec.i"
+	@echo "... src/linuxrec.s"
+	@echo "... src/speech_recognizer.o"
+	@echo "... src/speech_recognizer.i"
+	@echo "... src/speech_recognizer.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/AI-camera.dir/main.cpp.o  -o ../bin/AI-camera   -L/home/hy125245/AI-camera/libs  -Wl,-rpath,/home/hy125245/AI-camera/libs -lmsc 
+/usr/bin/c++     CMakeFiles/AI-camera.dir/main.cpp.o CMakeFiles/AI-camera.dir/src/linuxrec.c.o CMakeFiles/AI-camera.dir/src/speech_recognizer.c.o  -o ../bin/AI-camera   -L/home/hy125245/AI-camera/libs  -Wl,-rpath,/home/hy125245/AI-camera/libs -lmsc -lpthread -lasound 
