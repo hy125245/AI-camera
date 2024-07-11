@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/AI-carmera.dir/main.cpp.o  -o AI-carmera 
