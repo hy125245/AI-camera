@@ -25,4 +25,4 @@ aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_PATH)
 add_executable(${PROJECT_NAME} ${SRC_PATH})
 
 #动态库连接
-target_link_libraries(${PROJECT_NAME} ${LIB_PATH} SparkChain pthread asound stdc++fs)
+target_link_libraries(${PROJECT_NAME} ${LIB_PATH} SparkChain pthread asound stdc++fs websockets crypto)

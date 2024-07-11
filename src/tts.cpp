@@ -86,8 +86,6 @@ int initSDK(const std::string& file_name)
     return ret;
 }
 
-
-
 void personateTTS(const char* txt)
 {
     finish = false;

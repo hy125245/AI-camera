@@ -13,7 +13,7 @@ public:
     std::string api_id;
     std::string api_secret;
     std::string api_key;
-protected:
+private:
     
 };
 
